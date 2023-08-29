@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 900px;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    background-image: url(../Images/feb4be8fbd15a9aa01a3578ebbc8309a.jpeg);
+    background-size: cover;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 40px;
+    z-index: 1;
+    
+}
+
+.img1{
+    width:80px;
+    height: 80px;
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    margin-top: 55px;
+    
+    
+}
+@keyframes move{
+    0%{
+        left: 250px;
+    }
+    100%{
+    left: 1250px;
+    }
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-image: url(../Images/closeup-round-target-with-marked-bullseye-shooting-practice-shots-target-with_151013-40901.jpg);
+    background-size: cover;
+    position: absolute;
+    border-radius: 20px;
+    left:1160px;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-delay: 3s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    margin-top: 20px;
+    z-index: 2;
+    
+
+    
+}
+@keyframes move{
+    0%{
+         left: 10px; 
+    } 
+     100%{ 
+     left: 1160px; 
+    } 
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-image: url(../Images/secondweapon.jpeg);
+    background-size: cover;
+    position: absolute;
+    border-radius: 20px;
+    top: 300px;
+    z-index: 1;
+    
+   
+   
+    
+} 
+.img2{
+    width:85px;
+    height: 85px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    animation-timing-function: ease-in;
+    margin-top: 335px;
+    
+}
+@keyframes move{
+    0%{
+        left: 250px;
+    }
+    100%{
+    left: 1250px;
+    }
+}
+.div4{
+    width: 200px;
+    height: 200px;
+    background-image: url(../Images/closeup-round-target-with-marked-bullseye-shooting-practice-shots-target-with_151013-40901.jpg);
+    background-size: cover;
+    position: absolute;
+    border-radius: 20px;
+    left:1160px;
+    top:300px;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-delay: 9s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    margin-top: 20px;
+    z-index: 2;
+    
+
+    
+}
+@keyframes move{
+    0%{
+         left: 2px; 
+    } 
+     100%{ 
+     left: 1160px; 
+    } 
+}
+
+.div5{
+    width: 200px;
+    height: 200px;
+    background-image: url(../Images/10093619.webp);
+    background-size: cover;
+    position: absolute;
+    top: 600px;
+    border-radius: 20px;
+    z-index: 1;
+    margin-left: 2px;
+   
+   
+    
+}
+.img3{
+    width:85px;
+    height: 85px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+    animation-timing-function: ease-in;
+    margin-top:630px;
+    
+}
+@keyframes move{
+    0%{
+        left: 250px;
+    }
+    100%{
+    left: 1250px;
+    }
+}
+.div6{
+    width: 200px;
+    height: 200px;
+    background-image: url(../Images/closeup-round-target-with-marked-bullseye-shooting-practice-shots-target-with_151013-40901.jpg);
+    background-size: cover;
+    position: absolute;
+    border-radius: 20px;
+    left:1160px;
+    top:600px;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-delay: 15s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    margin-top: 20px;
+    z-index: 2;
+    
+
+    
+}
+@keyframes move{
+    0%{
+         left: 2px; 
+    } 
+     100%{ 
+     left: 1160px; 
+    } 
+}
+
+
+
+
